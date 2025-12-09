@@ -1,0 +1,76 @@
+/* ==========================
+   HEADER
+========================== */
+
+.cursos{
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.sectionTitle{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.sectionSubtitle{
+  font-size: .95rem;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.cursoContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cursoCard{
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  transition: transform .3s ease;
+  padding-top: 35px;
+  position: relative;
+}
+
+.cursoCard:hover {
+  transform: translateY(-6px);
+}
+
+.cursoInfo {
+  padding: 16px;
+  text-align: left;
+}
+
+.cursoPrecio {
+  color: #d63384;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.cursoTitulo {
+  margin-top: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.cursoInstructor{
+  padding: 14px 16px;
+  background: #fafafa;
+  font-size: .9rem;
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+
+.cursoCategoria {
+  color: #4c6ef5;
+  font-weight: 500;
+}
