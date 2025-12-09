@@ -1,0 +1,85 @@
+/* ==========================
+          FOOTER
+========================== */
+
+.footer {
+  background: #1a1a1a;
+  color: #ddd;
+  padding-top: 70px;
+  margin-top: 120px;
+}
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding-bottom: 60px;
+}
+
+.footerLogo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 14px;
+}
+
+.footerText {
+  font-size: .9rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #bbb;
+}
+
+.footerRedes a {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-right: 14px;
+  transition: opacity .3s ease;
+}
+
+.footerRedes a:hover {
+  opacity: 0.7;
+}
+
+.footerCol h4 {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  font-weight: 600;
+}
+
+.footerCol ul {
+  list-style: none;
+}
+
+.footerCol ul li {
+  margin-bottom: 12px;
+}
+
+.footerCol ul li a {
+  color: #bbb;
+  font-size: .95rem;
+  text-decoration: none;
+  transition: color .3s ease;
+}
+
+.footerCol ul li a:hover {
+  color: #ffffff;
+}
+
+.footerCol p {
+  font-size: .95rem;
+  color: #bbb;
+  margin-bottom: 12px;
+}
+
+.footerBottom {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #333;
+}
+
+.footerBottom p {
+  font-size: .85rem;
+  color: #888;
+}
