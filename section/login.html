@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión - Academia Digital</title>
+  
+  <link rel="stylesheet" href="css/globalStyle.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/loguin.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- ============================
+       HEADER
+    ============================= -->
+
+    <header class="header">
+    <div class="container navContainer">
+      <div class="logo">
+        <a href="/">Academia Digital</a>
+      </div>
+      <nav class="nav" aria-label="Menú principal">
+        <a href="/#inicio">Inicio</a>
+        <a href="/#cursos">Cursos</a>
+        <a href="/#nosotros">Nosotros</a>
+        <a href="/#instructores">Instructores</a>
+        <a href="/#testimonios">Testimonios</a>
+      </nav>
+      <div class="navActions">
+        <a href="/section/login.html" class="btnLogin">Iniciar Sesión</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================
+       LOGUIN
+    ============================= -->
+
+  <section class="loginSection">
+    <div class="loginContainer">
+      
+      <div class="loginForm">
+        <form action="#">
+          <label for="username">Usuario o Email</label>
+          <input type="text" id="username" placeholder="ejemplo@correo.com">
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" placeholder="********">
+          <div class="recuerdameRow">
+            <input type="checkbox" id="recuerdame">
+            <label for="recuerdame" class="rcuerdameLabel" style="margin:0; font-weight:400;">Recuérdame</label>
+          </div>
+          <button type="submit" class="loginBtn">Iniciar Sesión</button>
+        </form>
+      </div>
+
+      <div class="loginRedes">
+        <p class="loginText">O inicia sesión con:</p>
+        <button class="facebookBtn">
+          <span>f</span> Iniciar con Facebook
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================
+       LOGUIN
+    ============================= -->
+
+    <footer class="footer">
+  <div class="container footerContainer">
+    <div class="footerCol">
+      <h3 class="footerLogo">Academia Digital</h3>
+      <p class="footerText">
+        Aprende nuevas habilidades, crece profesionalmente y transforma tu futuro con nuestros cursos online.
+      </p>
+      <div class="footerRedes">
+        <a href="#"><i class="facebook"></i></a>
+        <a href="#"><i class="instagram"></i></a>
+        <a href="#"><i class="tiktok"></i></a>
+      </div>
+    </div>
+    <div class="footerCol">
+      <h4>Menú principal</h4>
+      <ul>
+        <li><a href="/#inicio">Inicio</a></li>
+        <li><a href="/#cursos">Cursos</a></li>
+        <li><a href="/#nosotros">Nosotros</a></li>
+        <li><a href="/#instructores">Instructores</a></li>
+        <li><a href="/#testimonios">Testimonios</a></li>
+      </ul>
+    </div>
+    <div class="footerCol">
+      <h4>Contacto</h4>
+      <p>Email: info@academiadigital.com</p>
+      <p>Tel: +57 (302) 353-6456</p>
+      <p>Dirección: Medellín, Colombia</p>
+    </div>
+  </div>
+  <div class="footerBottom">
+    <p>2025 Academia Digital. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
