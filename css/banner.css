@@ -6,7 +6,7 @@
   position: relative;
   height: 90vh;
   display: flex;
-  background-image: url(/assets/img/banner.jpg);
+  background-image: url(../assets/img/banner.jpg);
   justify-content: center;
   align-items: center;
   text-align: center;
