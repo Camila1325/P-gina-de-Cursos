@@ -43,6 +43,11 @@
   transform: translateY(-6px);
 }
 
+.cursoImg img {
+  width: 100%;
+  display: block;
+}
+
 .cursoInfo {
   padding: 16px;
   text-align: left;
